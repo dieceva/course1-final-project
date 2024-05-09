@@ -12,6 +12,7 @@ header {
     background-color: rgb(65, 79, 185);
     width: 100%;
     margin-bottom: 10px;
+    transition: 0.3s ease;
     }
 #top-nav, #top-ul, #top-ul li {
     display: flex;
@@ -21,6 +22,10 @@ header {
     gap: 30px;
     margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s ease;
+}
+#top-icons {
+    align-self:auto;
 }
 body {
     background-color: rgb(47, 57, 128);
@@ -113,25 +118,26 @@ h1:hover {
 
 .grid-container {
     display: grid;
-    grid-template-areas: 
-    'grid1 grid2';
+    grid-template-columns: auto auto;
     height: 500px;
     gap: 10px;
     align-content: center;
     justify-items: center;
 }
 #grid1 {
-    grid-area: grid1;
+   
     height: 450px;
     width: 600px;
     color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 #grid2 {
-    grid-area: grid2;
+    
     height: 450px;
     width: 600px;
     color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
@@ -202,18 +208,20 @@ footer  {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     width: 100px;
     opacity: 0;
-    transition: all 1s;
+    transition: 0.3 ease;
 }
 .dropdown-content a {
     display: block;
     padding: 10px;
     color: black;
     text-decoration: none;
+    transition: 0.3s ease;
     
 }
 .dropdown:hover .dropdown-content {
     display: block;
     opacity: 1;
+    transition: 0.3s ease;
     
 }
 
