@@ -57,22 +57,23 @@ li {
 /* unvisited link */
 a:link {
     color: silver
-}
-
-/* visited link */
-a:visited {
+  }
+  
+  /* visited link */
+  a:visited {
     color: black
-}
-
-/* mouse over link */
-a:hover {
-    color: skyblue
-}
-
-/* selected link */
-a:active {
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: skyblue;
+    font-weight: bold;
+  }
+  
+  /* selected link */
+  a:active {
     color: purple
-}
+  }
 
 nav {
     margin-left: 120px;

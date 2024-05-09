@@ -57,7 +57,8 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: skyblue
+    color: skyblue;
+    font-weight: bold;
   }
   
   /* selected link */
