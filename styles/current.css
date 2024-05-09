@@ -13,6 +13,9 @@ header {
     width: 100%;
     margin-bottom: 10px;
     }
+body {
+    background-color: rgb(47, 57, 128);;
+    }
 #top-nav, #top-ul, li {
     display: flex;
     list-style: none;
@@ -28,8 +31,53 @@ a   {
 nav {
     margin-left: 120px;
 }
-#ucl-logo {
-    fill: blue
+#main-title {
+    text-align: center;
+}
+#picture1 {
+    float: left;
+    margin-left: 22%;
+    border: solid;
+    border-width: 3px;
+    border-color: silver;
+}
+
+#picture2 {
+    float: right;
+    margin-right: 22%;
+    border: solid;
+    border-width: 3px;
+    border-color: silver;
+}
+#clear-item {
+    clear: both;
+    text-align: center;
+    color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    height: 200px;
+    overflow: scroll;
+    margin-left: 28%;
+    margin-top: 20px;
+}
+#dortmund {
+    height: 200px;
+    width: auto;
+    
+}
+#madrid {
+    height: 200px;
+    width: auto;
+}
+#dortmund:hover {
+    height: 250px;
+    width: auto;
+    transition: 1s ease;
+}
+#madrid:hover {
+    height: 250px;
+    width: auto;
+    transition: 1s ease;
 }
 h1 {
     margin-left: 40px;
