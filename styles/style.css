@@ -92,17 +92,21 @@ nav {
     border: solid;
     border-color: silver;
     border-width: 3px;
+    margin-bottom: 100px;
 }
 #article1 {
+    margin-bottom: 500px;
     align-items: center;
     text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 200px;
     background-color: rgb(47, 57, 128);
     color: silver;
     border-bottom-style: groove;
 }
 #article2 {
+    margin-top: 200px;
+    margin-bottom: 200px;
     background-color: rgb(47, 57, 128);
     color: silver;
     display: block;
